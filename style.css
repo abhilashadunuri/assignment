@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    font-size: 180%;
+    color:blueviolet;
+}
+h2{
+    float:right;
+    border:1px solid black;
+    color:lavender;
+    font-size: 125%;
+    padding:5px 20px 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+section{
+    border:1px solid black;
+    background-color:bisque;
+    overflow: auto;
+    float:right;
+    /* height:250px;   */
+}
+p{
+    margin-bottom: 15px;
+    /* margin-top: auto;
+    margin-left: auto; */
+    color:black;
+    margin:10px;
+    width:80%;
+    font-family: 'Times New Roman', Times, serif;
+    clear:both;
+}
+ul{
+    clear:right;
+    width:90%;
+}
+#chicken
+{
+    background-color: brown;
+}
+#Pork{
+    background-color: blueviolet;
+}
+#Steak
+{
+    background-color: green;
+}
+.row{
+    width:100%
+}
+@media(min-width:1200px)
+{
+    .cg-lg-1,.cg-lg-2,.cg-lg-3,.cg-lg-4,.cg-lg-5,.cg-lg-6,.cg-lg-7,.cg-lg-8,.cg-lg-9,.cg-lg-10,.cg-lg-11,.cg-lg-12
+    {
+        float:left;
+        padding: 15px;
+        /* border:1px solid black; */
+    }
+    .cg-lg-1
+    {
+        width:8.33%;
+    }
+    .cg-lg-2
+    {
+        width:16.66%;
+    }
+    .cg-lg-3
+    {
+        width:25%;
+    }
+    .cg-lg-4
+    {
+        width:33.33%;
+    }
+    .cg-lg-5
+    {
+        width:41.66%;
+    }
+    .cg-lg-6
+    {
+        width:50%;
+    }
+    .cg-lg-7
+    {
+        width:58.33%;
+    }
+    .cg-lg-8
+    {
+        width:66.66;
+    }
+    .cg-lg-9
+    {
+        width:75%;
+    }
+    .cg-lg-10
+    {
+        width:83.33%;
+    }
+    .cg-lg-11
+    {
+        width:91.66%;
+    }
+    .cg-lg-12
+    {
+        width:100%;
+    }
+
+}
+@media(min-width:950px) and (max-width:1199px)
+{
+    .cg-mg-1,.cg-mg-2,.cg-mg-3,.cg-mg-4,.cg-mg-5,.cg-mg-6,.cg-mg-7,.cg-mg-8,.cg-mg-9,.cg-mg-10,.cg-mg-11,.cg-mg-12
+    {
+        float:left;
+        padding: 15px;
+    }
+    .cg-mg-1
+    {
+        width:8.33%;
+    }
+    .cg-mg-2
+    {
+        width:16.66%;
+    }
+    .cg-mg-3
+    {
+        width:25%;
+    }
+    .cg-mg-4
+    {
+        width:33.33%;
+    }
+    .cg-mg-5
+    {
+        width:41.66%;
+    }
+    .cg-mg-6
+    {
+        width:50%;
+    }
+    .cg-mg-7
+    {
+        width:58.33%;
+    }
+    .cg-mg-8
+    {
+        width:66.66;
+    }
+    .cg-mg-9
+    {
+        width:75%;
+    }.cg-mg-10
+    {
+        width:83.33%;
+    }
+    .cg-mg-11
+    {
+        width:91.66%;
+    }
+    .cg-mg-12
+    {
+        width:100%;
+    }
+}
+@media(max-width:949px)
+{
+    .cg-sg-1,.cg-sg-2,.cg-sg-3,.cg-sg-4,.cg-sg-5,.cg-sg-6,.cg-sg-7,.cg-sg-8,.cg-sg-9,.cg-sg-10,.cg-sg-11,.cg-sg-12
+    {
+        float:left;
+        padding: 15px;
+    }
+    .cg-sg-1
+    {
+        width:8.33%;
+    }
+    .cg-sg-2
+    {
+        width:16.66%;
+    }
+    .cg-sg-3
+    {
+        width:25%;
+    }
+    .cg-sg-4
+    {
+        width:33.33%;
+    }
+    .cg-sg-5
+    {
+        width:41.66%;
+    }
+    .cg-sg-6
+    {
+        width:50%;
+    }
+    .cg-sg-7
+    {
+        width:58.33%;
+    }
+    .cg-sg-8
+    {
+        width:66.66;
+    }
+    .cg-sg-9
+    {
+        width:75%;
+    }.cg-sg-10
+    {
+        width:83.33%;
+    }
+    .cg-sg-1
+    {
+        width:91.66%;
+    }
+    .cg-sg-1
+    {
+        width:100%;
+    }
+}
